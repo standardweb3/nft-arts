@@ -1,0 +1,114 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <rect width="400" height="250" fill="url(#pattern0)" />
+    <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_18_24" transform="scale(0.0025 0.004)" />
+        </pattern>
+        <image id="image0_18_24" width="400" height="250" xlink:href="https://i.imgur.com/YESHC62.png" />
+    </defs>
+
+    <image  x="285" y="50" width="60" height="60" xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/1257px-Ethereum_logo_2014.svg.png" />
+    <path id="text-path-a" transform="translate(1,1)"
+        d="M369.133 1.20364L28.9171 1.44856C13.4688 1.45969 0.948236 13.9804 0.937268 29.4287L0.80321 218.243C0.792219 233.723 13.3437 246.274 28.8233 246.263L369.04 246.018C384.488 246.007 397.008 233.486 397.019 218.038L397.153 29.2235C397.164 13.7439 384.613 1.1925 369.133 1.20364Z"
+        stroke="none" />
+    <path id="text-path-b" transform="translate(269,35)" xmlns="http://www.w3.org/2000/svg" d="M1 46C1 70.8528 21.1472 91 46 91C70.8528 91 91 70.8528 91 46C91 21.1472 70.8528 1 46 1C21.1472 1 1 21.1472 1 46Z" stroke="none"/>
+    <rect fill="none" x="0px" y="0px" width="290px" height="200px" /> <text y="60px" x="32px" fill="white"
+        font-family="'Poppins', monospace" font-weight="400" font-size="24px">WETH Vault #2</text>
+    <text y="85px" x="32px" fill="white" font-family="'Poppins'" font-weight="350" font-size="14px">Collateral Balance:
+        1.5 WETH</text>
+    <text y="110px" x="32px" fill="white" font-family="'Poppins'" font-weight="350" font-size="14px">IOU:
+        1500 USM</text>
+    <text y="135px" x="32px" fill="white" font-family="'Poppins'" font-weight="350" font-size="14px">Health: 80%
+        💖</text>
+    <rect x="10" y="12" width="380" height="226" rx="20" ry="20" fill="rgba(0,0,0,0)" stroke="rgba(255,255,255,0.8)" />
+    <g>
+        <svg class="healthbar" xmlns="http://www.w3.org/2000/svg" viewBox="0 -0.5 38 9" shape-rendering="crispEdges"
+            x="-113px" y="138px" width="400px" height="30px">
+            <path stroke="#222034"
+                d="M2 2h1M3 2h32M3  3h1M2 3h1M35 3h1M3 4h1M2 4h1M35 4h1M3  5h1M2 5h1M35 5h1M3 6h32M3" />
+            <path stroke="#323c39" d="M3 3h32" />
+            <path stroke="#494d4c" d="M3 4h32M3 5h32" />
+            <!-- Fill container -->
+            <g>
+                <svg x="3" y="2.5" width="32" height="10">
+                    <rect fill="#57e705" height="3">
+                        <animate attributeName="width" from="0" to="20" dur="0.5s" fill="freeze" />
+                    </rect>
+                </svg>
+            </g>
+        </svg>
+    </g>
+    <g style="transform:translate(265px, 180px)">
+        <rect width="48px" height="48px" rx="10px" ry="10px" fill="none" stroke="rgba(255,255,255,0.6)" />
+        <image x="4" y="4" width="40" height="40"
+            xlink:href="https://assets.coingecko.com/coins/images/325/small/Tether-logo.png?1598003707" />
+    </g>
+    <g style="transform:translate(325px, 180px)">
+        <rect width="48px" height="48px" rx="10px" ry="10px" fill="none" stroke="rgba(255,255,255,0.6)" />
+        <image x="4" y="4" width="40" height="40"
+            xlink:href="https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389" />
+    </g>
+    <text text-rendering="optimizeSpeed">
+        <textPath startOffset="-100%" fill="white" font-family="'Poppins', monospace" font-size="10px"
+            xlink:href="#text-path-a">0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 • Vault
+            <animate additive="sum" attributeName="startOffset" from="0%" to="100%" begin="0s" dur="30s"
+                repeatCount="indefinite" />
+        </textPath>
+        <textPath startOffset="0%" fill="white" font-family="'Poppins', monospace" font-size="10px"
+            xlink:href="#text-path-a">0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 • Vault
+            <animate additive="sum" attributeName="startOffset" from="0%" to="100%" begin="0s" dur="30s"
+                repeatCount="indefinite" />
+        </textPath>
+        <textPath startOffset="50%" fill="white" font-family="'Poppins', monospace" font-size="10px"
+            xlink:href="#text-path-a">0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 • Vault
+            <animate additive="sum" attributeName="startOffset" from="0%" to="100%" begin="0s" dur="30s"
+                repeatCount="indefinite" />
+        </textPath>
+        <textPath startOffset="-50%" fill="white" font-family="'Poppins', monospace" font-size="10px"
+            xlink:href="#text-path-a">0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 • Vault
+            <animate additive="sum" attributeName="startOffset" from="0%" to="100%" begin="0s" dur="30s"
+                repeatCount="indefinite" />
+        </textPath>
+    </text>
+     <text text-rendering="optimizeSpeed">
+        <textPath startOffset="-100%" fill="white" font-family="'Poppins', monospace" font-size="10px"
+            xlink:href="#text-path-b"> • Ethereum •
+            <animate additive="sum" attributeName="startOffset" from="0%" to="100%" begin="0s" dur="30s"
+                repeatCount="indefinite" />
+        </textPath>
+        <textPath startOffset="0%" fill="white" font-family="'Poppins', monospace" font-size="10px"
+            xlink:href="#text-path-b"> • Ethereum •
+            <animate additive="sum" attributeName="startOffset" from="0%" to="100%" begin="0s" dur="30s"
+                repeatCount="indefinite" />
+        </textPath>
+        <textPath startOffset="50%" fill="white" font-family="'Poppins', monospace" font-size="10px"
+            xlink:href="#text-path-b"> • Ethereum •
+            <animate additive="sum" attributeName="startOffset" from="0%" to="100%" begin="0s" dur="30s"
+                repeatCount="indefinite" />
+        </textPath>
+        <textPath startOffset="-50%" fill="white" font-family="'Poppins', monospace" font-size="10px"
+            xlink:href="#text-path-b"> • Ethereum •
+            <animate additive="sum" attributeName="startOffset" from="0%" to="100%" begin="0s" dur="30s"
+                repeatCount="indefinite" />
+        </textPath>
+    </text>
+    <g style="transform:translate(30px, 180px)">
+        <rect width="120px" height="12px" rx="3px" ry="3px" fill="rgba(0,0,0,0.6)" /><text x="6px" y="9px"
+            font-family="'Poppins', monospace" font-size="8px" fill="white">
+            <tspan fill="rgba(255,255,255,0.6)">Min. Collateral Ratio: </tspan>150%
+        </text>
+    </g>
+    <g style="transform:translate(30px, 195px)">
+        <rect width="110px" height="12px" rx="3px" ry="3px" fill="rgba(0,0,0,0.6)" /><text x="6px" y="9px"
+            font-family="'Poppins', monospace" font-size="8px" fill="white">
+            <tspan fill="rgba(255,255,255,0.6)">Liq. Penalty Ratio: </tspan>150%
+        </text>
+    </g>
+    <g style="transform:translate(30px, 210px)">
+        <rect width="90px" height="12px" rx="3px" ry="3px" fill="rgba(0,0,0,0.6)" /><text x="6px" y="9px"
+            font-family="'Poppins', monospace" font-size="8px" fill="white">
+            <tspan fill="rgba(255,255,255,0.6)">Interest Rate: </tspan>15%
+        </text>
+    </g>
+</svg>

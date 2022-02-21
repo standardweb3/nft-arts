@@ -5,7 +5,7 @@
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
             <use xlink:href="#image0_18_24" transform="scale(0.0025 0.004)" />
         </pattern>
-        <image id="image0_18_24" width="400" height="250" xlink:href="https://i.imgur.com/YESHC62.png" />
+        <feImage id="image0_18_24" width="400" height="250" xlink:href="https://i.imgur.com/YESHC62.png" />
     </defs>
 
     <image  x="285" y="50" width="60" height="60" xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/1257px-Ethereum_logo_2014.svg.png" />

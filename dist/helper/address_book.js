@@ -9,7 +9,7 @@ const promises_1 = __importDefault(require("fs/promises"));
 const inquirer_1 = __importDefault(require("inquirer"));
 require("dotenv/config");
 async function getAddress(contract, chain) {
-    const filename = 'test-book.json';
+    const filename = 'address-book.json';
     const exists = await fileExists(filename);
     if (exists) {
         var content = await loadAddresses();
@@ -21,7 +21,7 @@ async function getAddress(contract, chain) {
 }
 exports.getAddress = getAddress;
 async function recordAddress(name, chain, address) {
-    const filename = 'test-book.json';
+    const filename = 'address-book.json';
     const exists = await fileExists(filename);
     if (exists) {
         // find out whether info is already written
@@ -56,8 +56,8 @@ exports.recordAddress = recordAddress;
 async function loadAddresses() {
     let deploymentConfigFile = process.env.ADDRESS_BOOK;
     if (!deploymentConfigFile) {
-        console.log('no deploymentConfigFile field found in standard deployment config. attempting to read from default path "./test-book.json"');
-        deploymentConfigFile = 'test-book.json';
+        console.log('no deploymentConfigFile field found in standard deployment config. attempting to read from default path "./address-book.json"');
+        deploymentConfigFile = 'address-book.json';
     }
     const content = await promises_1.default.readFile(deploymentConfigFile, { encoding: 'utf8' });
     const deployInfo = JSON.parse(content);

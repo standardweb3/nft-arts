@@ -1,0 +1,41 @@
+{
+  "name": "nft-arts",
+  "version": "0.0.0",
+  "description": "NFT art generator from token id",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc -p .",
+    "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalnativeinc/nft-arts.git"
+  },
+  "keywords": [
+    "nft",
+    "image"
+  ],
+  "author": "Hyungsuk Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalnativeinc/nft-arts/issues"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "homepage": "https://github.com/digitalnativeinc/nft-arts#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.5.4",
+    "image-data-uri": "^2.0.1",
+    "inquirer": "^8.2.0",
+    "utf8": "^3.0.0"
+  }
+}

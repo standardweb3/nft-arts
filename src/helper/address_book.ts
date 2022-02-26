@@ -4,7 +4,7 @@ import inquirer from "inquirer"
 import "dotenv/config";
 
 export async function getAddress(contract, chain) {
-    const filename = 'address-book.json'
+    const filename = '../address-book.json'
     const exists = await fileExists(filename)
     if (exists) {
         var content = await loadAddresses()
@@ -15,7 +15,7 @@ export async function getAddress(contract, chain) {
 }
 
 export async function recordAddress(name, chain, address) {
-    const filename = 'address-book.json'
+    const filename = '../address-book.json'
     const exists = await fileExists(filename)
     if (exists) {
         // find out whether info is already written

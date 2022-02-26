@@ -2,7 +2,7 @@
   "name": "nft-arts",
   "version": "0.0.0",
   "description": "NFT art generator from token id",
-  "main": "src/index.ts", 
+  "main": "src/index.ts",
   "scripts": {
     "start": "vercel dev",
     "deploy": "vercel deploy --prod",
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
+    "@types/inquirer": "^8.2.0",
     "@types/node": "^17.0.21",
     "express": "^4.17.3",
     "nodemon": "^2.0.15",

@@ -49,7 +49,7 @@ export async function loadAddresses() {
     let deploymentConfigFile  = process.env.ADDRESS_BOOK
     if (!deploymentConfigFile) {
         console.log('no deploymentConfigFile field found in standard deployment config. attempting to read from default path "./address-book.json"')
-        deploymentConfigFile = 'address-book.json'
+        deploymentConfigFile = '../address-book.json'
     }
     const content = await fs.readFile(deploymentConfigFile, { encoding: 'utf8' })
     const deployInfo = JSON.parse(content)

@@ -1,2 +1,4 @@
 address-book.json
 dist
+.vercel
+node_modules

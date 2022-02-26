@@ -4,7 +4,8 @@
   "description": "NFT art generator from token id",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "vercel dev",
+    "deploy" : "vercel deploy --prod",
     "build": "tsc -p .",
     "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/index.ts"
   },
@@ -36,6 +37,7 @@
     "ethers": "^5.5.4",
     "image-data-uri": "^2.0.1",
     "inquirer": "^8.2.0",
-    "utf8": "^3.0.0"
+    "utf8": "^3.0.0",
+    "vercel": "^24.0.0"
   }
 }

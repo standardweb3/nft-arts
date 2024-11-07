@@ -1,7 +1,7 @@
 {
-  "description": "Friendly OpenSea Creature that enjoys long swims in the ocean.", 
-  "external_url": "https://openseacreatures.io/3", 
-  "image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png", 
-  "name": "Dave Starbelly",
+  "description": "Story badge after completing the mission on Standard Odyssey Testnet Campaign", 
+  "external_url": "https://standardweb3.com", 
+  "image": "https://raw.githubusercontent.com/standardweb3/nft-arts/refs/heads/main/images/Standard-prologue-badge.png", 
+  "name": "Standard Story Odyssey Badge",
   "attributes": [  ]
 }
